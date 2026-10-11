@@ -1,0 +1,26 @@
+{
+  "name": "securecloud-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SecureCloud - Secure Cloud File Sharing & Management System",
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "test:server": "npm --prefix server test",
+    "test:client": "npm --prefix client test",
+    "test:db": "npm --prefix server run test:db",
+    "lint": "npm --prefix server run lint && npm --prefix client run lint",
+    "format": "npm --prefix server run format && npm --prefix client run format"
+  },
+  "keywords": [
+    "cloud-storage",
+    "file-sharing",
+    "encryption",
+    "zero-knowledge",
+    "aes-gcm",
+    "express",
+    "react"
+  ],
+  "author": "",
+  "license": "ISC"
+}
